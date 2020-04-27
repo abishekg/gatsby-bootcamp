@@ -1,15 +1,12 @@
 import React from "react"
-import Footer from '../../components/footer';
-import Header from "../../components/header"
+import Layout from "../../components/layout"
 
 const ContactPage = () => {
-  return (<div>
-    <Header />
+  return (<Layout>
     <h1>Contact</h1>
     <p>Details for Contact Page</p>
     <p>Link to my <a href='https://github.com/abishekg/gatsby-bootcamp' target='_blank'>Github</a> profile</p>
-    <Footer />
-  </div>)
+  </Layout>)
 }
 
 export default ContactPage

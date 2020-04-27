@@ -2,7 +2,6 @@ import React from "react"
 import { Link } from "gatsby"
 
 const Header = () => {
-  console.log('>>>>> CALLED');
   return (
     <header>
       <h1>Abishek G</h1>
